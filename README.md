@@ -15,3 +15,10 @@ Definir una API para gestionar nuestro equipo Pokemon
 - Eliminar Pokémon: DELETE /team/pokemons/:id
 - Intercambiar el orden de nuestros pokemons: PUT /team
 - Sistema de credenciales
+
+# Testing
+- I use Mocha and Chai to API' s testing 
+Mocha: https://mochajs.org/
+Chai: https://www.chaijs.com/
+
+npm i -D mocha chai
