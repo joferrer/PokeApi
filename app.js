@@ -11,3 +11,19 @@ app.get('/',(req,res)=>{
     //req(request) es la petición
     res.send('HELLO WORD!'); 
 });
+
+app.post('/team/pokemons',()=>{
+
+});
+
+app.get('/team',()=>{
+
+});
+
+app.delete('/team/pokemons/:pokeid',()=>{
+
+});
+
+app.put('/team',()=>{
+
+});
