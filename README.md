@@ -22,3 +22,4 @@ Mocha: https://mochajs.org/
 Chai: https://www.chaijs.com/
 
 npm i -D mocha chai
+npm i -D chai-http

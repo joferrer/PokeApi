@@ -27,3 +27,5 @@ app.delete('/team/pokemons/:pokeid',()=>{
 app.put('/team',()=>{
 
 });
+
+exports.app = app;
