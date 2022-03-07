@@ -21,5 +21,12 @@ Definir una API para gestionar nuestro equipo Pokemon
 Mocha: https://mochajs.org/
 Chai: https://www.chaijs.com/
 
-npm i -D mocha chai
+npm i -D mocha chai \n
 npm i -D chai-http
+
+# Autentification
+I use passport-jwt and jsonwebtoken \n
+
+npm i -s passport-jwt \n
+npm i jsonwebtoken \n
+
