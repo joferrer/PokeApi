@@ -2,6 +2,8 @@ const express = require('express');
 const app = express(); //Constructor de express
 //require('./auth')(passport); //LLamda a auth.js
 
+require('./database');
+
 const teamsRoutes = require('./routes/team').router;
 
 app.use('/team',teamsRoutes); //Link con la ruta /team

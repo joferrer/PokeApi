@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha",
+    "test": "mocha",
     "dev-app": "nodemon app.js"
   },
   "author": "",
@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.5",
     "nodemon": "^2.0.15",
     "passport-jwt": "^4.0.0"
   },
